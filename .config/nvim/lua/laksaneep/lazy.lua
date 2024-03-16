@@ -22,7 +22,7 @@ vim.opt.rtp:prepend(lazypath)
 -- vim.cmd.colorscheme "catppuccin"
 
 
-require("lazy").setup({ { import = "laksaneep.plugins" } }, {
+require("lazy").setup({ { import = "laksaneep.plugins" }, { import = "laksaneep.plugins.lsp" } }, {
   checker = {
     enabled = true,
     notify = false,
